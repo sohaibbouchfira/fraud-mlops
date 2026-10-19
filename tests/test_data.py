@@ -12,3 +12,7 @@ def test_fraud_rate_is_plausible(df):
 
 def test_amount_is_non_negative(df):
     assert (df["amount"] >= 0).all()
+
+
+def test_transaction_id_is_unique(df): 
+    assert df["transaction_id"].is_unique
