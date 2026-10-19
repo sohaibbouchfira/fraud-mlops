@@ -1,0 +1,10 @@
+seed: 42
+test_size: 0.25
+model:
+  n_estimators: 200
+  max_depth: 8
+gates:                  # business gates, applied by evaluate.py on the full dataset
+  min_recall: 0.70
+  min_precision: 0.40
+ci:
+  min_roc_auc: 0.92     # smoke gate, applied by pytest on a small sample in CI
