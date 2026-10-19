@@ -1,6 +1,6 @@
 {
-  "recall": 0.808641975308642,
-  "precision": 0.6359223300970874,
-  "roc_auc": 0.957419145754546,
-  "gates_passed": true
+  "recall": 0.6503067484662577,
+  "precision": 0.5792349726775956,
+  "roc_auc": 0.9320866378922189,
+  "gates_passed": false
 }

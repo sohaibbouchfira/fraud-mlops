@@ -1,8 +1,8 @@
 seed: 42
 test_size: 0.25
 model:
-  n_estimators: 200
-  max_depth: 8
+  n_estimators: 300
+  max_depth: 9
 gates:                  # business gates, applied by evaluate.py on the full dataset
   min_recall: 0.70
   min_precision: 0.40
